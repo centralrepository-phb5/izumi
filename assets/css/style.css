@@ -12,15 +12,9 @@
 }
 
 /* BASE CODE */
-html {
-    font-size: 62.5%;
-}
-
 body {
-    font-size: 1.4rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    position: relative;
 }
 
 /* HEADER */
@@ -29,14 +23,21 @@ body {
     padding: 1rem;
 }
 
+.nav-link{
+    text-decoration: none;   /* decoration changed */
+    color: #292b2c;        /* color changed */
+    font-weight: 500;       /* weight added */
+}
+
 /* FOOTER */
 .footer-area {
-    background: #1b1b1bf5;
+    background: #F8F9FA;
     padding: 2rem 0;
 }
 
 .social-item{
+    color: #292b2c;       /* color changed */
     margin-right: 2rem;
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 1.8rem;      /* size changed */
 }
