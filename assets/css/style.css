@@ -1,0 +1,31 @@
+/*======== GOOGLE FONTS =========*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.header-area {
+    background-color: blanchedalmond;
+    padding: 1rem;
+}
+
+.footer-area {
+    background: #1b1b1bf5;
+    padding: 2rem 0;
+}
