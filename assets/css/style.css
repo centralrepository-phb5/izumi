@@ -1,0 +1,43 @@
+/*======== GOOGLE FONTS =========*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* UNIVERSEL CODE */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* BASE CODE */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* HEADER */
+.header-area {
+    background-color: blanchedalmond;
+    padding: 1rem;
+}
+
+.nav-link{
+    text-decoration: none;   /* decoration changed */
+    color: #292b2c;        /* color changed */
+    font-weight: 500;       /* weight added */
+}
+
+/* FOOTER */
+.footer-area {
+    background: #F8F9FA;
+    padding: 2rem 0;
+}
+
+.social-item{
+    color: #292b2c;       /* color changed */
+    margin-right: 2rem;
+    list-style: none;
+    font-size: 1.8rem;      /* size changed */
+}
