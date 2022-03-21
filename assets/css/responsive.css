@@ -1,0 +1,44 @@
+/*=======  Large devices (desktops, less than 1200px) =======*/
+@media (max-width: 1199.98px) {
+  /*======= Header =======*/
+  .navbar-wrapper .nav-menu ul li {
+    margin: 0;
+  }
+  .panel-close {
+    display: none;
+  }
+}
+
+/*======= Extra small devices (portrait phones, less than 992px) =======*/
+@media (max-width: 991.98px) {
+  .footer-area .footer-wrap .social-links ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-area .footer-widget {
+    margin-top: 50px;
+  }
+  .footer-area .footer-wrap {
+    text-align: center;
+    margin-top: -30px;
+  }
+}
+
+/*======= Extra small devices (portrait phones, less than 768px) =======*/
+/*======= Extra small devices (portrait phones, less than 576px) =======*/
+@media (max-width: 359.98px) {
+  .navbar-extra {
+    background: #363636;
+  }
+  .mobile-menu-panel {
+    width: 100%;
+  }
+  .mobile-menu-panel .panel-close {
+    display: block;
+  }
+  .transparent-header .navbar-wrapper.breakpoint-on .navbar-inner {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
